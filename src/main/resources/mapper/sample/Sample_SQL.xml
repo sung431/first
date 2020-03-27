@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="sample" >
+
+	<select id="selectMemberList" resultType="hashmap">
+		SELECT * FROM member;
+	</select>
+	
+	<insert id="insertMember" parameterType="hashmap">
+		INSERT INTO member(member_name, dept_no) VALUES(#{mname}, #{bno});
+	</insert>
+	
+</mapper>
