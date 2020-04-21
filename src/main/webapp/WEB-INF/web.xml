@@ -17,7 +17,7 @@
 	<filter-mapping>
 	    <filter-name>encodingFilter</filter-name>
 	<url-pattern>*.do</url-pattern>
-	</filter-mapping>	
+	</filter-mapping>
 	
 	<!-- welcome file -->
 	<welcome-file-list>
